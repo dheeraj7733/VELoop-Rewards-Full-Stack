@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import { cloneElement, useEffect, useState } from 'react';
 import './Auth.css';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
-export default function AuthGate({ children: App }) {
+export default function AuthGate({ children }) {
   const [user, setUser] = useState(null);
   const [mode, setMode] = useState('login');
   const [checking, setChecking] = useState(true);
@@ -65,7 +65,7 @@ export default function AuthGate({ children: App }) {
     return <div className="auth-loading">Checking your session…</div>;
   }
 
-  if (user) return <App user={user} onLogout={logout} />;
+  if (user) return cloneElement(children, { user, onLogout: logout });
 
   return (
     <main className="auth-page">
