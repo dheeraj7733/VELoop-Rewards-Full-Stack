@@ -25,12 +25,12 @@ const activities = [
   { title: 'Achievement Unlocked', date: 'Yesterday, 11:20 AM', points: '+25 Gems', type: 'Earned' },
 ]
 
-function App() {
+function App({ user, onLogout }) {
   const [activePage, setActivePage] = useState('Dashboard')
 
   const [profile, setProfile] = useState({
-    name: 'Dheeraj Sharma',
-    email: 'dheeraj@example.com',
+    name: user?.name || 'Member',
+    email: user?.email || '',
     phone: '9876543210',
     country: 'India',
     accountType: 'Member',
@@ -84,9 +84,10 @@ function App() {
             <div className="notification">♧</div>
             <div className="avatar">DS</div>
             <div>
-              <strong>Dheeraj Sharma</strong>
-              <p>Member Account</p>
+              <strong>{profile.name}</strong>
+              <p>{user?.role === 'admin' ? 'Administrator' : 'Member Account'}</p>
             </div>
+            <button className="logout-button" onClick={onLogout}>Log out</button>
           </div>
         </header>
 
@@ -95,7 +96,7 @@ function App() {
             <section className="welcome-section">
               <div>
                 <p className="eyebrow">YOUR REWARDS SPACE</p>
-                <h1>Welcome back, Dheeraj! 👋</h1>
+                <h1>Welcome back, {profile.name.split(' ')[0]}! 👋</h1>
                 <p>Track your rewards, explore achievements and keep growing.</p>
               </div>
               <div className="level-card">

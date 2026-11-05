@@ -46,3 +46,8 @@ Planning and initial setup.
 
 ## Developer
 Dheeraj Sharma
+
+## Authentication implementation (feature branch)
+The `feature/authentication` branch adds a Node.js/Express authentication API and React login/registration screens. Passwords are bcrypt-hashed; signed short-lived JWTs are stored in HttpOnly cookies; protected routes verify the session and enforce admin roles.
+
+See [backend authentication setup](backend/README.md) for environment variables, API endpoints, local run instructions, and production security notes. Copy `backend/.env.example` to `backend/.env` and `frontend/.env.example` to `frontend/.env` before running locally.
