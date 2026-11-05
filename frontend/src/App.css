@@ -534,3 +534,5 @@ footer {
     font-size: 19px;
   }
 }
+
+.logout-button{border:1px solid #e6e3f0;background:#fff;color:#6f56d7;border-radius:8px;padding:9px 12px;font-size:12px;font-weight:700}.logout-button:hover{background:#f4f1ff}
