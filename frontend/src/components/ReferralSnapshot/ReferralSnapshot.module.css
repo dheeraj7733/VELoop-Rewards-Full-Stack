@@ -1,0 +1,12 @@
+.card { background: #1E2238; border: 1px solid #282E4D; border-radius: 12px; padding: 18px; margin-bottom: 22px; }
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.info { display: flex; align-items: center; gap: 8px; }
+.title { font-size: 1.1rem; font-weight: 700; color: #F8FAFC; }
+.codeBox { background: #232845; border: 1px solid #2F365E; padding: 4px 10px; border-radius: 6px; display: flex; align-items: center; gap: 8px; }
+.code { font-family: monospace; font-weight: 700; color: #F59E0B; }
+.copyBtn { background: transparent; border: none; color: #94A3B8; }
+.stats { display: flex; gap: 24px; font-size: 0.8rem; }
+.label { color: #94A3B8; display: block; }
+.num { font-size: 1.1rem; font-weight: 700; color: #F8FAFC; }
+.green { color: #10B981; }
+.gold { color: #F59E0B; }

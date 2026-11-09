@@ -1,0 +1,12 @@
+.card { background: #1E2238; border: 1px solid #282E4D; border-radius: 12px; padding: 18px; margin-bottom: 22px; }
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.title { font-size: 1.1rem; font-weight: 700; color: #F8FAFC; }
+.payoutBtn { background: #F59E0B; color: #161827; border: none; padding: 6px 12px; border-radius: 6px; font-weight: 700; font-size: 0.8rem; display: flex; align-items: center; gap: 4px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.box { background: #232845; border: 1px solid #2F365E; padding: 10px 14px; border-radius: 8px; display: flex; flex-direction: column; }
+.label { font-size: 0.7rem; color: #94A3B8; text-transform: uppercase; font-weight: 600; }
+.num { font-size: 1.3rem; font-weight: 800; color: #F8FAFC; margin-top: 2px; }
+.pending .num { color: #F59E0B; }
+.approved .num { color: #10B981; }
+.rejected .num { color: #EF4444; }
+.withdrawn .num { color: #3B82F6; }

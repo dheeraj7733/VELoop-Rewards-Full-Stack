@@ -1,0 +1,11 @@
+.section { margin-bottom: 24px; }
+.sectionTitle { font-size: 1.2rem; font-weight: 700; color: #F8FAFC; margin-bottom: 14px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; }
+.card { background: #1E2238; border: 1px solid #282E4D; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between; min-height: 120px; }
+.top { display: flex; align-items: center; justify-content: space-between; }
+.assetName { font-weight: 700; font-size: 1rem; color: #F8FAFC; }
+.balance { font-size: 1.7rem; font-weight: 800; color: #F8FAFC; margin: 8px 0; }
+.subText { font-size: 0.72rem; color: #94A3B8; }
+.xpNotice { font-size: 0.72rem; color: #FBBF24; font-weight: 600; }
+.redeemBtn { background: #F59E0B; color: #161827; border: none; padding: 6px 10px; border-radius: 6px; font-weight: 700; font-size: 0.78rem; display: flex; align-items: center; justify-content: center; gap: 4px; }
+.svesCard { border-color: #64748B; background: linear-gradient(145deg, #1E2238, #252B47); }

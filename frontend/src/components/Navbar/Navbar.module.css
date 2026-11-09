@@ -1,0 +1,15 @@
+.navbar { background: #1A1D30; border-bottom: 1px solid #282E4D; position: sticky; top: 0; z-index: 1000; padding: 12px 0; }
+.container { max-width: 1240px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-between; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.logoPill { width: 36px; height: 36px; border-radius: 8px; background: #F59E0B; display: flex; align-items: center; justify-content: center; color: #161827; }
+.brandText { font-size: 1.2rem; font-weight: 700; color: #F8FAFC; }
+.brandAccent { color: #F59E0B; }
+.navLinks { display: flex; gap: 16px; }
+.navLink { display: flex; align-items: center; gap: 6px; color: #94A3B8; font-size: 0.9rem; font-weight: 500; }
+.navLink:hover { color: #F8FAFC; }
+.adminLink { color: #C4B5FD; background: rgba(139, 92, 246, 0.15); padding: 4px 10px; border-radius: 6px; }
+.profileMenu { display: flex; align-items: center; gap: 12px; }
+.userName { font-size: 0.9rem; font-weight: 600; color: #F8FAFC; }
+.logoutBtn { background: #232845; border: 1px solid #2F365E; color: #94A3B8; padding: 6px 10px; border-radius: 6px; }
+.logoutBtn:hover { color: #EF4444; }
+.loginBtn { background: #F59E0B; color: #161827; padding: 6px 14px; border-radius: 6px; font-weight: 600; }

@@ -1,0 +1,5 @@
+.section { margin-bottom: 22px; }
+.title { font-size: 1.1rem; font-weight: 700; color: #F8FAFC; margin-bottom: 12px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.btn { background: #1E2238; border: 1px solid #282E4D; color: #F8FAFC; padding: 12px; border-radius: 8px; display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.85rem; }
+.btn:hover { background: #232845; }

@@ -1,0 +1,20 @@
+.page { background: #161827; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+.box { width: 100%; max-width: 440px; display: flex; flex-direction: column; gap: 16px; }
+.header { text-align: center; }
+.logoPill { width: 44px; height: 44px; background: #F59E0B; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: #161827; margin: 0 auto 10px; }
+.gold { color: #F59E0B; }
+.sub { font-size: 0.85rem; color: #94A3B8; }
+.card { background: #1E2238; border: 1px solid #282E4D; border-radius: 12px; overflow: hidden; }
+.tabs { display: flex; background: #1A1D30; }
+.tabs button { flex: 1; padding: 12px; border: none; background: transparent; color: #94A3B8; font-weight: 600; }
+.activeTab { color: #F59E0B !important; background: #1E2238 !important; border-bottom: 2px solid #F59E0B; }
+.form { padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.form label { font-size: 0.78rem; color: #94A3B8; font-weight: 600; display: block; margin-bottom: 4px; }
+.form input { width: 100%; background: #161827; border: 1px solid #282E4D; color: #F8FAFC; padding: 8px 12px; border-radius: 6px; }
+.submitBtn { background: #F59E0B; color: #161827; border: none; padding: 10px; border-radius: 6px; font-weight: 700; margin-top: 6px; }
+.demoPanel { background: #1E2238; border: 1px solid #3B436D; border-radius: 10px; padding: 14px; }
+.demoTop { display: flex; align-items: center; gap: 6px; margin-bottom: 10px; }
+.demoTitle { font-size: 0.85rem; font-weight: 700; color: #F8FAFC; }
+.demoCards { display: flex; flex-direction: column; gap: 8px; font-size: 0.78rem; color: #CBD5E1; }
+.demoItem { display: flex; justify-content: space-between; align-items: center; background: #161827; padding: 8px 10px; border-radius: 6px; border: 1px solid #282E4D; }
+.autofillBtn { background: #232845; border: 1px solid #2F365E; color: #F59E0B; font-size: 0.72rem; padding: 3px 8px; border-radius: 4px; }

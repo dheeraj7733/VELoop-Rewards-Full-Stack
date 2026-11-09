@@ -1,0 +1,9 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin-bottom: 22px; }
+.item { background: #1E2238; border: 1px solid #282E4D; border-radius: 10px; padding: 12px 14px; display: flex; align-items: center; gap: 12px; }
+.details { display: flex; flex-direction: column; overflow: hidden; }
+.label { font-size: 0.72rem; color: #94A3B8; text-transform: uppercase; font-weight: 600; }
+.row { display: flex; align-items: center; gap: 6px; }
+.val { font-size: 0.9rem; font-weight: 600; color: #F8FAFC; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gold { color: #F59E0B; font-family: monospace; }
+.copyBtn { background: transparent; border: none; color: #94A3B8; padding: 2px; }
+.copyBtn:hover { color: #F59E0B; }

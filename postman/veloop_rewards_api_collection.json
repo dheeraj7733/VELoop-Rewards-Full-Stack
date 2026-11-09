@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "VELoop Rewards API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login Admin",
+      "request": {
+        "method": "POST",
+        "url": "http://localhost:5000/api/auth/login"
+      }
+    },
+    {
+      "name": "Get Profile",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5000/api/profile/me"
+      }
+    }
+  ]
+}

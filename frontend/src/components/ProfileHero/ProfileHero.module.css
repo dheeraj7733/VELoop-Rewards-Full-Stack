@@ -1,0 +1,13 @@
+.heroCard { background: #1E2238; border: 1px solid #282E4D; border-radius: 14px; padding: 22px; margin-bottom: 20px; display: flex; align-items: center; gap: 20px; }
+.avatar { width: 70px; height: 70px; border-radius: 50%; background: linear-gradient(135deg, #F59E0B, #8B5CF6); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.6rem; color: #161827; flex-shrink: 0; }
+.info { flex-grow: 1; }
+.nameRow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.name { font-size: 1.5rem; font-weight: 700; color: #F8FAFC; }
+.editBtn { background: transparent; border: 1px solid #2F365E; color: #94A3B8; padding: 5px; border-radius: 6px; }
+.verifiedBadge { background: rgba(16, 185, 129, 0.15); color: #10B981; font-size: 0.75rem; font-weight: 600; padding: 3px 8px; border-radius: 12px; display: flex; align-items: center; gap: 4px; }
+.statusBadge { background: #232845; color: #34D399; font-size: 0.72rem; font-weight: 700; padding: 3px 8px; border-radius: 12px; }
+.levelRow { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; font-weight: 600; color: #F59E0B; background: #232845; padding: 6px 12px; border-radius: 8px; width: fit-content; }
+.xpText { color: #94A3B8; font-size: 0.8rem; font-weight: 400; }
+.editForm { display: flex; gap: 8px; }
+.nameInput { background: #161827; border: 1px solid #3B82F6; color: #F8FAFC; padding: 4px 10px; border-radius: 6px; }
+.saveBtn { background: #10B981; color: #161827; border: none; padding: 4px 10px; border-radius: 6px; font-weight: 600; }

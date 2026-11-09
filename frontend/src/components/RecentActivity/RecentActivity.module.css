@@ -1,0 +1,9 @@
+.card { background: #1E2238; border: 1px solid #282E4D; border-radius: 12px; padding: 18px; margin-bottom: 22px; }
+.header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+.title { font-size: 1.1rem; font-weight: 700; color: #F8FAFC; }
+.list { display: flex; flex-direction: column; gap: 8px; }
+.item { background: #232845; padding: 10px 14px; border-radius: 8px; display: flex; align-items: center; justify-content: space-between; font-size: 0.85rem; }
+.desc { color: #F8FAFC; font-weight: 600; display: block; }
+.time { color: #94A3B8; font-size: 0.72rem; }
+.amount { color: #10B981; font-weight: 700; font-size: 0.8rem; background: rgba(16, 185, 129, 0.12); padding: 3px 8px; border-radius: 4px; }
+.empty { color: #64748B; font-size: 0.85rem; }
